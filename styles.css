@@ -1,0 +1,70 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url(./Christmas-background.png); /* Thay thế bằng URL hình nền Giáng sinh của bạn */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+h1 {
+    color: #FFD700;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+
+input{
+    background-color: rgba(255,255,255,0.3);
+    color: white;
+    width: 80%;
+    height: 1rem;
+    margin-left: 20%-10px;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: aqua;
+    text-align: center;
+}
+
+button {
+    background-color: #FF4500;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    
+}
+
+button:hover {
+    background-color: #FF6347;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
